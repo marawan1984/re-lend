@@ -1,95 +1,21 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import * as React from 'react';
+import Box from '@mui/material/Box';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <>
+      <h1>Investing in Small Loans</h1>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <p>Unlocking Good Returns with Safety for Beginners
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+In the vast landscape of investment opportunities, small loans present an intriguing avenue that has gained popularity for its potential for good returns and safety, especially for beginners navigating the complex world of investments.<br></br> Unlike traditional investment vehicles, small loans offer a unique blend of accessibility, diversification, and risk mitigation that can make them an attractive option for those seeking to build a robust investment portfolio.</p>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <p>One of the key attractions of investing in small loans is the potential for lucrative returns. These loans, often extended to individuals or small businesses, can yield higher interest rates compared to more conventional investment options. The inherent risk of lending is offset by the prospect of earning interest payments, providing investors with a steady income stream.</p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+      <p>Furthermore, small loans provide a level of diversification that can be advantageous for beginners. By spreading investments across a variety of small loans, investors can mitigate risks associated with the performance of individual borrowers or businesses. This diversification strategy helps protect against the impact of defaults, making small loans a more resilient asset class.</p>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      <p>For novice investors, the safety of investing in small loans lies in the careful selection of platforms or intermediaries that facilitate these transactions. Peer-to-peer lending platforms and online lending marketplaces often act as intermediaries, connecting lenders with borrowers and providing a transparent environment for investment. These platforms typically employ robust risk assessment mechanisms, ensuring that loans are extended to creditworthy borrowers.</p>
+
+    </>
+  );
 }
